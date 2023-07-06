@@ -21,7 +21,8 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
+  adapter: mysql2
+  encoding: utf8
   database: realworld_production #db/production.sqlite3
   username: root
   password: password
