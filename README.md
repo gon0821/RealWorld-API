@@ -139,6 +139,16 @@ ex) PUT /api/articles/the-return-of-shohei-otani
 
 <br>
 
+## デプロイ
+
+- デプロイ先
+  - https://aws-and-infra-gon0821.com
+- API サーバー (EC2 もしくは ECS) とデータベースサーバー (RDS) は別々に構築
+- データベースサーバーは、API サーバーからのみアクセスできる
+- 独自ドメインでアクセスできる
+- SSL 化 (HTTPS 化) 対応
+- Postmanにて動作確認済み
+
 ## インフラ構成図
 
 ![RealWorldインフラ構成図](documents/RealWorld_aws_infra.png "インフラ構成図")
