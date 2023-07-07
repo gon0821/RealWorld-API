@@ -136,3 +136,9 @@ DELETE /api/articles/:slug
 ex) PUT /api/articles/the-return-of-shohei-otani
 ```
 </details>
+
+<br>
+
+## インフラ構成図
+
+![RealWorldインフラ構成図](documents/RealWorld_aws_infra.png "インフラ構成図")
